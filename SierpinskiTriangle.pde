@@ -1,5 +1,4 @@
 int length = 200;
-int clr1;
 int clr2;
 int clr3;
 public void setup()
@@ -16,10 +15,8 @@ public void draw()
 public void mouseClicked() {
     fill(0,0,0);
     rect(0, 0, width, height);
-    clr1 = (int)(Math.random()*255 + 1);
     clr2 = (int)(Math.random()*255 + 1);
     clr3 = (int)(Math.random()*255 + 1);
-    //fill(clr1, (int)((float)(900-y)/900*255), clr3);
     if(length == 200) {
         length = 400;
     } else if(length == 400) {
